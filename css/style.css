@@ -138,16 +138,19 @@ a{
     background-repeat: no-repeat;
     background-size: cover;
     height: 700px;
-    display: flex;
-    justify-content: center;
-    align-items: end;
+    position: relative;
 }
-.section2-div{
-    width: 1300px;
-    margin: 0 auto;
-     display: flex;
-    justify-content:center;
-    align-items: end;
+.section2-image2{
+    width: 350px;
+    position: absolute;
+    top: 65%;
+    left: 40%;
+}
+.section2-image{
+    width: 950px;
+    position: absolute;
+    top: 31%;
+    left: 17%;
 }
 
 /* footer */
